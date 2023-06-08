@@ -9,7 +9,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: 'https://img.skyxk.cn/images/2023/06/08/ggkRt.png',
     colorMode: 'dark',
-    repo: 'Aikkes-xk/MiaBot_Docs',
+    repo: 'Aikkes-xk/NGE_ServerCommand_Docs',
     docsBranch: 'main',
     docsDir: 'docs',
     editLink: true,
