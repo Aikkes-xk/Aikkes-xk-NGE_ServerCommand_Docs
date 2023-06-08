@@ -1,4 +1,4 @@
-export const data = JSON.parse("{\"key\":\"v-15ba3bbd\",\"path\":\"/GoGuild/\",\"title\":\"进入频道\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"GoGuild/Index.md\"}")
+export const data = JSON.parse("{\"key\":\"v-15ba3bbd\",\"path\":\"/GoGuild/\",\"title\":\"进入频道\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1686241574000,\"contributors\":[{\"name\":\"星空-xk\",\"email\":\"sky-xk@outlook.com\",\"commits\":1}]},\"filePathRelative\":\"GoGuild/Index.md\"}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

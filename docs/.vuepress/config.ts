@@ -56,18 +56,15 @@ export default defineUserConfig({
         sidebar: {
           '/Commands': [
             {
-              text: '指令文档',
+              text: '指令说明',
               children: [
                 '/Commands/Index.md'
               ],
             },
             {
-              text: 'MiaBot框架',
+              text: '基础指令',
               children: [
-                '/Commands/Install.md',
-                '/Commands/login.md',
-                '/Commands/plugins.md',
-                '/Commands/DevDocs/Install.md'
+                '/Commands/default.md',
               ],
             },
             {
