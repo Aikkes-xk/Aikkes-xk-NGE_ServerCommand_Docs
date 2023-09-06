@@ -4,10 +4,10 @@ title: 首页
 heroImage: https://img.skyxk.cn/images/2023/06/08/ggkRt.png
 actions:
   - text: 游戏问题
-    link: /Docs/#文档介绍
+    link: /issue/
     type: secondary
   - text: 服务器指令
-    link: /Docs/Install.html
+    link: /Commands/
     type: primary
 features:
   - title: 指令查询

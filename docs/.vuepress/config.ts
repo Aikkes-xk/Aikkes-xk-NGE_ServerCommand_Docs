@@ -10,8 +10,7 @@ export default defineUserConfig({
     logo: 'https://img.skyxk.cn/images/2023/06/08/ggkRt.png',
     colorMode: 'dark',
     repo: 'Aikkes-xk/NGE_ServerCommand_Docs',
-    docsBranch: 'main',
-    docsDir: 'docs',
+    docsBranch: 'docs',
     editLink: true,
     locales: {
       '/': {
@@ -40,17 +39,27 @@ export default defineUserConfig({
         toggleSidebar: '切换侧边栏',
         navbar: [
 		  {
-            text: '指令文档',
+            text: '服务器指令',
             link: '/Commands',
             activeMatch: '/Commands'
           },
           {
-            text: '社区',
-            link: 'https://www.ngeyx.cn',
+            text: '游戏问题',
+            link: '/issue',
+            activeMatch: '/issue'
+          },
+          {
+            text: '机器人指令',
+            link: '/BotCommands',
+            activeMatch: '/BotCommands'
           },
           {
             text: '加入频道',
             link: '/GoGuild/Index.md',
+          },
+          {
+            text: '社区',
+            link: 'https://www.ngeyx.cn',
           },
         ],
         sidebar: {
@@ -58,7 +67,9 @@ export default defineUserConfig({
             {
               text: '指令说明',
               children: [
-                '/Commands/Index.md'
+                '/Commands/Index.md',
+                '/Commands/faq.md'
+
               ],
             },
             {
@@ -67,12 +78,6 @@ export default defineUserConfig({
                 '/Commands/default.md',
               ],
             },
-            {
-              text: '问题解决',
-              children: [
-                '/Commands/Issue/Login_Issue.md'
-              ],
-            }
           ],
           '/GoGuild': [
             {
@@ -80,6 +85,14 @@ export default defineUserConfig({
               children: [
                 '/GoGuild/Index.md',
                 '/GoGuild/Inaccessible.md',
+              ],
+            },
+          ],
+          '/issue': [
+            {
+              text: '游戏问题',
+              children: [
+                '/issue/Index.md',
               ],
             },
           ],
