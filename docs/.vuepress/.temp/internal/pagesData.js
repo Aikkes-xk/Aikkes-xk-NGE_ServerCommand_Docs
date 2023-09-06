@@ -1,6 +1,8 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"F:/学习_工作类/文档docs/commandDoc/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
+  // path: /BotCommands/
+  "v-7e1c1239": () => import(/* webpackChunkName: "v-7e1c1239" */"F:/学习_工作类/文档docs/commandDoc/docs/.vuepress/.temp/pages/BotCommands/index.html.js").then(({ data }) => data),
   // path: /Commands/default.html
   "v-7465d1e6": () => import(/* webpackChunkName: "v-7465d1e6" */"F:/学习_工作类/文档docs/commandDoc/docs/.vuepress/.temp/pages/Commands/default.html.js").then(({ data }) => data),
   // path: /Commands/faq.html

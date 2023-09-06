@@ -74,7 +74,7 @@ export default defineUserConfig({
               ],
             },
             {
-              text: '基础指令',
+              text: '服务器指令',
               children: [
                 '/Commands/default.md',
               ],
@@ -94,6 +94,14 @@ export default defineUserConfig({
               text: '游戏问题',
               children: [
                 '/issue/Index.md',
+              ],
+            },
+          ],
+          '/BotCommands': [
+            {
+              text: '机器人指令',
+              children: [
+                '/BotCommands/Index.md',
               ],
             },
           ],
