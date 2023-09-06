@@ -10,7 +10,8 @@ export default defineUserConfig({
     logo: 'https://img.skyxk.cn/images/2023/06/08/ggkRt.png',
     colorMode: 'dark',
     repo: 'Aikkes-xk/NGE_ServerCommand_Docs',
-    docsBranch: 'docs',
+    docsBranch: 'master',
+    docsDir: 'docs',
     editLink: true,
     locales: {
       '/': {
